@@ -13,7 +13,6 @@ namespace CSC237_JNure_FinalProject.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        // Commment
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
