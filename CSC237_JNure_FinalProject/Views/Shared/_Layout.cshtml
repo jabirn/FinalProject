@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CSC237_JNure_FinalProject</title>
+    <title>@ViewData["Title"] - On Time Limo Service </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CSC237_JNure_FinalProject</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">On Time Limo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,10 +22,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
                         </li>
-                    </ul>
-                </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="BookRide">Book Ride</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Street Map">Locations</a>
+                        </li>
+                        <li class="nav-item navbar-expand-lg navbar-toggler">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Select">Car Selection</a>
+                        </li>
+</div>
             </div>
         </nav>
     </header>
@@ -37,7 +48,12 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - CSC237_JNure_FinalProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a asp-area="" asp-controller="Home" asp-action="Facebook">Facebook</a>
+            <a asp-area="" asp-controller="Home" asp-action="twitter">Twitter</a>
+            <a asp-area="" asp-controller="Home" asp-action="instagram">instagram</a>
+            <a asp-area="" asp-controller="Home" asp-action="Email">Email</a>
+
+            &copy; 2021 - On Time Limo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
